@@ -19,13 +19,19 @@
 <body>
   <header>
     <div class="row">
-
       <!-- bg-primary -->
-      <div class=" row  col-xl-12 col-lg-12  text-light">
-        <pre>   Proret <small>Ingenieria</small>  SAS                                                 <img src="../images/movil.png"  alt="telefono">  Telefono:  470 29 06       <img src="../images/email.png" alt="correo">Correo:  proret@gmail.com  </pre>
-      </div>
+            <!-- -inicio ----fila   -----nueva --- -->
+          <div class="row ">
+            <!-- .col-12.col-sm-6.col-md-4.col-lg-3-col-xl-2{col$} -->
+            <div class="col-sm ">
+              <h6>     <img src="../images/movil.png " width="30px"   height= "25px" >   Telefono:  470 29 06 </h6>  
+            </div>
+              <div class="col-sm  ">
+              <h6><img src="../images/email.png" width="30px"   height= "25px">   Correo:  proret@gmail.com</h6>    
+            </div>
+          </div>
     </div>
-
+<!-- -fin ----inicio fila    -------- -->
     <!-- -------inicio------menu--------------- -->
     <nav class="navbar navbar-expand-lg navbar-light  bg-light  text-light">
       <div class="container-fluid">
@@ -33,6 +39,12 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+
+           <!-- ----inicio ---Boton llama contacto clase nodal--------------- -->
+           <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myContacto">
+            Contactenos
+            </button>
+              <!-- ---fin----Boton llama contacto clase nodal--------------- -->
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -197,6 +209,60 @@
     </div>
   </div>
   <!-- -fin ----fila footer    -------- -->
+
+  
+  <!-- -inicio ----clase modal contactenos  -------- -->
+     <!-- The Modal -->
+     <div class="modal fade" id="myContacto">
+      <div class="modal-dialog modal-content">
+        <div class="modal-content">
+  
+          
+          <!-- Modal Header -->
+          <div class="modal-title">
+  
+                  <div class="container">
+                    <h2>Contactar </h2>
+                    <form action="/action_page.php">
+                      <div class="form-group">
+                        <label for="email">Nombre:</label>
+                        <input type="text" class="form-control" id="text" placeholder="Ingrese Nombre" name="Nombre">
+                      </div>
+  
+                      <div class="form-group">
+                        <label for="email">Apellidos:</label>
+                        <input type="text" class="form-control" id="text" placeholder="Ingrese Apellido" name="Apellido">
+                      </div>
+                      <div class="form-group">
+                        <label for="text">Telefono:</label>
+                        <input type="text" class="form-control" id="text" placeholder="Ingrese Telefono" name="telefono">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                      </div>
+  
+                      <div class="form-group form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" name="remember"> Recordar Datos
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary"> <a  href="index.html">Enviar</a>
+                      </button>
+                    </form>
+                  </div>
+                </button>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+  
+               
+            </div>
+        </div>
+      </div>
+    </div>
+     <!-- -fin ----clase modal contactenos    -------- -->
 
   <!-- ------Todos los Script JS -------------------------------- -->
   <script src="js/bootstrap.min.js"></script>
