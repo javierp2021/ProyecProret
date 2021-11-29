@@ -10012,6 +10012,14 @@ h4, h2 {
   padding: 10px;
 }
 
+.inicio {
+  height: 40px;
+  background-color: white;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to top, blue, #039EE3);
+}
+
 .row__footer--altura {
   height: 30px;
 }
