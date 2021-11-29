@@ -21,18 +21,21 @@
 <body>
   <header>
     <!-- -inicio ----fila   -----nueva --- -->
-    <div class="row inicio">
-        <!-- .col-12.col-sm-6.col-md-4.col-lg-3-col-xl-2{col$} -->
-        <div class=" col-sm  row__inicio--altura ">
-          <h6>    <img src="images/movil.png " width="30px"   height= "25px" >   Telefono:  470 29 06 </h6>   
-        </div>
-        <div class="col-sm row__inicio--altura ">
-         <h6>   <img src="images/email.png" width="30px"   height= "25px">   Correo:  proret@gmail.com</h6>    
-        </div>
-    </div>
+    <div class="row">
+     
+            <!-- .col-12.col-sm-6.col-md-4.col-lg-3-col-xl-2{col$} -->
+            <div class="col-sm">
+              <h6>     <img src="images/movil.png " width="30px"   height= "25px" >   Telefono:  470 29 06 </h6>  
+            </div>
+              <div class="col-sm  ">
+              <h6><img src="images/email.png" width="30px"   height= "25px">   Correo:  proret@gmail.com</h6>    
+            </div>
+          </div>
+    
+  </div>
+
     <!-- -fin ----inicio fila    -------- -->
 
-  
     <!-- -------inicio------menu--------------- -->
     <nav class="navbar navbar-expand-lg navbar-light  bg-light  text-light">
       <div class="container-fluid">
@@ -41,12 +44,12 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-          <!-- ----inicio ---Boton llama contacto clase nodal--------------- -->
-        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myContacto">
+            <!-- ----inicio ---Boton llama contacto clase nodal--------------- -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myContacto">
           Contactenos
           </button>
             <!-- ---fin----Boton llama contacto clase nodal--------------- -->
-        
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
@@ -187,9 +190,9 @@
 
         <div class="electricidad--aling  ">
           <h3>Electricidad</h3>
-          <img class="electricidad__img--alinng" src="images/img/electricidad.png  " alt="electricos">
+          <img class="electricidad__img--alinng  " src="images/img/electricidad.png  " alt="electricos">
 
-          <p class="electricidad__p   p-15">
+          <p class="electricidad__p  ">
             Diseño, instalación y mantenimiento de redes eléctricas residenciales e industriales.
             Diseño, instalación y mantenimiento de redes eléctricas reguladas.
             Tableros eléctricos.
@@ -267,14 +270,22 @@
         <pre>  <h6> <img src="images/movil.png" >  Telefono:  470 29 06 </h6>    </pre>
 
       </div>
-      <div class="footer col-sm  bg-success">
+      <div class=" footer col-sm  bg-success">
         <pre>  <h6>  <img src="images/email.png">Correo:  proret@gmail.com</h6>    </pre>
 
       </div>
   </div>
   <!-- -fin ----fila footer    -------- -->
-  
-         <!--Inicio  Clases  Modal Header -->
+
+
+  <!-- -inicio ----clase modal contactenos  -------- -->
+     <!-- The Modal -->
+  <div class="modal fade" id="myContacto">
+    <div class="modal-dialog modal-content">
+      <div class="modal-content">
+
+        
+        <!-- Modal Header -->
         <div class="modal-title">
 
                 <div class="container">
@@ -312,14 +323,17 @@
               <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
               </div>
+
+             
           </div>
       </div>
     </div>
   </div>
-
-
-
    <!-- -fin ----clase modal contactenos    -------- -->
+
+
+
+
 
   <!-- ------Todos los Script JS -------------------------------- -->
   <script src="js/bootstrap.min.js"></script>
@@ -332,3 +346,4 @@
 </body>
 
 </html>
+
