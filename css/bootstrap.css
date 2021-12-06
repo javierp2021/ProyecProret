@@ -9945,22 +9945,21 @@ h3 {
 }
 header {
   background-color: #039EE3;
-  color: white;
+  background-color: white;
+  color: #039EE3;
 }
 
-.carousel-inner img {
-  max-width: 100%;
-  max-height: 500px;
+.inicio {
+  text-align: center;
+  background-color: #039EE3;
 }
 
 nav {
-  height: 130px;
-  background-color: white;
+  color: white;
 }
 
-.navbar .nav-item:hover .nav-link {
-  /* background-color: #007BFF; */
-  background-color: #DC3545;
+.text-white {
+  color: white;
 }
 
 body {
@@ -9974,6 +9973,11 @@ body {
 .error-404 {
   background-color: aquamarine;
   color: #b40e5c;
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  max-height: 400px;
 }
 
 h1, h3, h5 {
@@ -10012,24 +10016,15 @@ h4, h2 {
   padding: 10px;
 }
 
-.inicio {
-  height: 40px;
-  background-color: white;
-  color: white;
-  text-align: center;
-  background: linear-gradient(to top, blue, #039EE3);
-}
-
 .row__footer--altura {
   height: 30px;
 }
 
 .footer {
-  height: 180px;
-  background-color: white;
+  background-color: #23923c;
+  background-color: #007BFF;
   color: white;
   text-align: center;
-  background: linear-gradient(to top, #ccc, #039EE3);
 }
 
 pre {
