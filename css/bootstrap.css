@@ -10044,7 +10044,7 @@ pre {
   width: 100%;
   height: 400px;
   background-image: url(../images/slider/vision.jpg);
-  background-size: 80%;
+  background-size: 60%;
   /* animation: movimiento 10s linear infinite; */
   animation: movimiento 15s infinite linear alternate;
 }
