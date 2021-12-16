@@ -16,24 +16,32 @@
 <header>
   <br>
   <!-- ------Inicio mennu --------------- -->
+  <!-- <nav class="navbar navbar-expand-md bg-dark navbar-dark"> -->
   <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-    <ul class="navbar-nav">
-      <li class="nav-item ">
-        <a class="nav-link btn-primary  text-white" href="index.html">Proret Ingenieria</a>
-      </li>
-      <!-- ----inicio ---Boton llama contacto clase nodal--------------- -->
-      <button type="button" class="btn  btn-primary  text-white" data-toggle="modal" data-target="#myContacto">
-        Contactenos
-      </button>
-      <!-- ---fin----Boton llama contacto clase nodal--------------- -->
-      <li class="nav-item">
-        <a class="nav-link   btn-primary  text-white" href="pages/mision.html">Mision</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link  btn-primary  text-white" href="pages/vision.html">Vision</a>
-      </li>
-    </ul>
+    <a class="navbar-brand" href="index.html">Proret Ingenieria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="pages/mision.html">Mision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/vision.html">Vision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myServicios">Servicios</a>
+        </li>
+        <!-- ----inicio ---Boton llama contacto clase nodal--------------- -->
+        <li class="nav-item">
+          <a class="nav-link " data-toggle="modal" data-target="#myContacto" href="pages/vision.html">Contactenos </a>
+        </li>
+        <!-- ---fin----Boton llama contacto clase nodal--------------- -->
+      </ul>
+    </div>
   </nav>
+  <br>
   <br>
 </header>
 <!-- ------Fin   mennu --------------- -->
@@ -88,7 +96,7 @@
       <p></p>
       <img src="images/servicio.jpg" class="rounded-circle" alt="Cinque Terre" width="250" height="200" />
       <p></p>
-      <h5>Servicios</h5>
+      <h5 id="myServicios">Servicios</h5>
       <p><i class="fa fa-spinner w3-spin" style="font-size:64px; color:blue"></i></p>
 
       <!-- ------------modal -------- -->
@@ -215,10 +223,16 @@
 <div class="carousel-inner">
   <div class="row  bg-primary ">
     <div class="col-sm  footer">
-      <pre>  <h6> <img src="images/movil.png"class="rounded-circle" alt="Cinque Terre" > 470 29 06     Correo:  proret@gmail.com</h6>    </pre>
+      <br>
+      <a href="https://web.whatsapp.com" target="_blank">
+        <img src="images/movil.png" class="rounded-circle">
+      </a>
     </div>
     <div class="col-sm  footer">
-      <pre>  <h6>  <img src="images/email.png" class="rounded-circle" alt="Cinque Terre" />    Correo:  proret@gmail.com</h6>    </pre>
+      <br>
+      <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="_blank">
+        <img src="images/email.png" class="rounded-circle" />
+      </a>
     </div>
   </div>
 </div>
@@ -257,15 +271,14 @@
                 <input class="form-check-input" type="checkbox" name="remember"> Recordar Datos
               </label>
             </div>
-            <button type="submit" class="btn btn-danger "> <a href="index.html">Enviar</a>
+            <button type="submit" class="btn btn btn-link"> <a href="index.html">Enviar</a>
             </button>
           </form>
         </div>
         </button>
         <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
-
       </div>
     </div>
   </div>

@@ -22,32 +22,39 @@
     <br>
     <!-- ------Inicio mennu --------------- -->
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <a class="nav-link btn-primary  text-white" href="../index.html">Proret Ingenieria</a>
-        </li>
-        <!-- ----inicio ---Boton llama contacto clase nodal--------------- -->
-        <button type="button" class="btn  btn-primary  text-white" data-toggle="modal" data-target="#myContacto">
-          Contactenos
-        </button>
-        <!-- ---fin----Boton llama contacto clase nodal--------------- -->
-        <li class="nav-item">
-          <a class="nav-link   btn-primary  text-white" href="mision.html">Mision</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  btn-primary  text-white" href="vision.html">Vision</a>
-        </li>
-      </ul>
+      <a class="navbar-brand" href="../index.html">Proret Ingenieria</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="mision.html">Mision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vision.html">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#myServicios">Servicios</a>
+          </li>
+          <!-- ----inicio ---Boton llama contacto clase nodal--------------- -->
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="modal" data-target="#myContacto" href="pages/vision.html">Contactenos </a>
+          </li>
+          <!-- ---fin----Boton llama contacto clase nodal--------------- -->
+        </ul>
+      </div>
     </nav>
+    <br>
     <br>
   </header>
   <!-- ------Fin   mennu --------------- -->
   <!-- ----------imagen ------------ -->
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../images/slider/vision.jpg" alt="quienes somos" class="d-block w-100">
+    <div class="carousel-item active  portada-vision">
+      <!-- <img src="../images/slider/vision.jpg" alt="quienes somos" class="d-block w-100"> -->
       <div class="carousel-caption d-none d-md-block">
-        <h2> ! !</h2>
+        <h2> Nuestra</h2>
         <h2>Vision</h2>
       </div>
     </div>
@@ -64,7 +71,7 @@
 
         <img src="../images/Valores.png " alt="valores" class="rounded-circle" alt="Cinque Terre" width="250"
           height="200" />
-        <h3>Nuestros Valores Corporativos </h3>
+        <h3>Nuestra Vision</h3>
         <p><i class="fa fa-spinner w3-spin" style="font-size:64px; color:blue"></i></p>
         <p> El objetivo es servir a nuestros clientes con profesionalismo y
           responsabilidad.
@@ -85,14 +92,14 @@
             servicios que ofrecemos y oportuna con las necesidades de nuestros clientes.</p>
           <!-- --inicio Collapsible---- -->
           <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Nuestros
-            VAlores</button>
+            VAlores Corporativos </button>
           <div id="demo" class="collapse">
             <p class="electricidad__p">
-              <p>Profesionalismo.</p>
-              <p>Responsabilidad</p>
-              <p> Organización</p>
-              <p> Respeto</p>
-              <p> Eficiencia</p>
+            <p>Profesionalismo.</p>
+            <p>Responsabilidad</p>
+            <p> Organización</p>
+            <p> Respeto</p>
+            <p> Eficiencia</p>
             </p>
           </div>
           <br>
@@ -112,10 +119,16 @@
   <div class="carousel-inner">
     <div class="row  bg-primary ">
       <div class="col-sm  footer">
-        <pre>  <h6> <img src="../images/movil.png"class="rounded-circle" alt="Cinque Terre" > 470 29 06     Correo:  proret@gmail.com</h6>    </pre>
+        <br>
+        <a href="https://web.whatsapp.com" target="_blank">
+          <img src="../images/movil.png" class="rounded-circle">
+        </a>
       </div>
       <div class="col-sm  footer">
-        <pre>  <h6>  <img src="../images/email.png" class="rounded-circle" alt="Cinque Terre" />    Correo:  proret@gmail.com</h6>    </pre>
+        <br>
+        <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="_blank">
+          <img src="../images/email.png" class="rounded-circle" />
+        </a>
       </div>
     </div>
   </div>
@@ -155,7 +168,7 @@
                   <input class="form-check-input" type="checkbox" name="remember"> Recordar Datos
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary"> <a href="../index.html">Enviar</a>
+              <button type="submit" class="btn btn-link"> <a href="../index.html">Enviar</a>
               </button>
             </form>
           </div>
@@ -169,10 +182,8 @@
     </div>
   </div>
   <!-- -fin ----clase modal contactenos    -------- -->
-
   <!-- ------Todos los Script JS -------------------------------- -->
   <script src="js/bootstrap.min.js"></script>
-
   <!-- -----java script clase modal------------- -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

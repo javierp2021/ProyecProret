@@ -40,6 +40,7 @@ h4, h2{
 
 .comunicaciones--aling{
     text-align: center;
+    
 }
 
 .comunicaciones__p{
@@ -72,8 +73,35 @@ h4, h2{
   }
 // efectos imagenes
 
-
-  /*each para la imagenes de l index*/
+.portada-mision{
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/slider/mision.jpg);
+  background-size: 170%;
+  /* animation: movimiento 10s linear infinite; */
+  animation: movimiento 15s infinite linear alternate;
+  // border-radius: 10px;
+}
+.portada-vision{
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/slider/vision.jpg);
+  background-size: 80%;
+  /* animation: movimiento 10s linear infinite; */
+  animation: movimiento 15s infinite linear alternate;
+  // border-radius: 10px;
+}
+@keyframes movimiento{
+  from {
+    background-position: bottom left;
+  }to{
+    background-position: top right;
+  }
+}
+  
+a:link {
+  text-decoration: none;
+}
 
  
 
